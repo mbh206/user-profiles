@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbf5ef8c;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header, .footer {
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    background-color: #487b9d81;
+}
+
+#header-title,
+#footer-title {
+    font-size: 2rem;
+    margin:10px 0;
+}
+
+#main-content {
+    padding: 0 20px;
+    width:70%;
+    overflow: auto;
+}
+
+.my-online-users {
+    min-height: 80%;
+    
+    overflow: auto;
+}
+
+.my-online-user {
+    background-color: #dde6ee;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border: 0.01rem solid white;
+    /* box-shadow: -1px -2px 20px #d7d7d7; */
+    /* border-radius: 20px; */
+}
+
+.my-online-user:hover,
+.my-online-user:focus,
+.my-online-user:active {
+    cursor: pointer;
+    background-color: #d7d7d7;
+}
+
+.user-username {
+    order: 1;
+}
+
+.user-heading {
+    color: grey;
+}
+
+.detail-name {
+    color: grey;
+    font-size: .8rem;
+}
